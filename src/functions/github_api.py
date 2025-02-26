@@ -18,7 +18,7 @@ class GithubAPI:
                 break
             data = response.json()
             if not data:
-                break  # Stop if no more data
+                break
             users.update(user['login'] for user in data)
             page += 1
         return users
