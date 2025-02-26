@@ -38,6 +38,7 @@ GITHUB_USERNAME=your_username
 GITHUB_TOKEN=your_token
 ```
 - Get token: GitHub Settings → Developer Settings → PAT (need `user` scope)
+> ⚠️ **Important**: Make sure to select the `user` scope when creating your token. This permission is required for following/unfollowing operations.
 
 ## 🚀 Usage
 
