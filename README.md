@@ -22,8 +22,8 @@ Automate unfollowing GitHub users who don't follow you back using Python.
 
 1. **Clone Repository**
 ```bash
-git clone https://github.com/yourusername/github-unfollower
-cd github-unfollower
+git clone https://github.com/0xmainak/github-unfollowers.git
+cd github-unfollowers
 ```
 
 2. **Install Dependencies**
