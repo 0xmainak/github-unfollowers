@@ -2,7 +2,6 @@ from src.functions import GithubAPI
 from dotenv import load_dotenv
 import os
 
-
 load_dotenv()
 
 GITHUB_USERNAME = os.getenv('GITHUB_USERNAME')
@@ -16,8 +15,6 @@ if __name__ == "__main__":
     
     if following is not None and followers is not None:
         non_followers = following - followers
-
-        # print(non_followers)
         
         print(f"Unfollowing {len(non_followers)} users who don't follow back...")
         for user in non_followers:
